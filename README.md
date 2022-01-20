@@ -19,7 +19,7 @@ Logo abaixo está as instruções para que possa executar o projeto completo em 
 
 O projeto pode ser construído com npm, então acompanhe o passo a passo.
 
-* **Npm** é um comando feito pelo Node.JS, o que significa que, quando você baixa, automaticamente obtém o npm instalado em sua máquina.[Baixar Node.js](https://nodejs.org/en/download/)
+* **Npm** é um comando feito pelo Node.JS, o que significa que, quando você baixa, automaticamente obtém o npm instalado em sua máquina. [Baixar Node.js](https://nodejs.org/en/download/)
 
 * **Angular CLI** é um pacote que contém ferramentas e auxiliares para projetos Angular na forma de uma ferramenta de linha de comando. Ele pode ser obtido pelo comando: 
 
