@@ -1,0 +1,89 @@
+.card {
+    width: 90%;
+    margin: 20px auto;
+    border-radius: 5px;
+    background-color: #ebebeb;
+    filter: drop-shadow(0px 0px 2px rgba(29, 29, 29, 0.6));
+    border-bottom: 4px solid #623da1;
+}
+
+.card .job {
+    font-weight: 400;
+    filter: drop-shadow(0px 0px 1px rgba(29, 29, 29, 0.6));
+}
+
+.card .title {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.card .responsible,
+.card .title,
+.card .id,
+.card .priority,
+.card .status {
+    width: 45%;
+    margin-bottom: 10px;
+}
+
+.card .description {
+    width: 100%;
+    margin-bottom: 10px;
+    filter: drop-shadow(0px 0px 1px rgba(29, 29, 29, 0.6));
+}
+
+.card .formDate {
+    width: 90%;
+    margin-bottom: 10px;
+}
+
+.disabled {
+    pointer-events: none;
+    cursor: default;
+    text-decoration: none;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+table {
+    width: 100%;
+    background-color: #ebebeb;
+    border-radius: 5px;
+}
+
+ng-container,
+th,
+td {
+    text-align: center !important;
+}
+
+td.mat-cell:first-of-type,
+th.mat-header-cell:first-of-type {
+    width: 100px;
+    padding-left: 0;
+}
+
+th {
+    color: #ebebeb;
+    filter: drop-shadow(0px 0px 1px rgba(29, 29, 29, 0.6));
+}
+
+tr:nth-child(even) {
+    background-color: #ccc;
+}
+
+tr.mat-header-row {
+    background-color: #5a3994;
+}
+
+table a i {
+    margin-right: 10px;
+    font-size: 22px;
+    color: #4d2e83;
+    filter: drop-shadow(0px 0px 1px rgba(77, 46, 131, 0.6));
+}

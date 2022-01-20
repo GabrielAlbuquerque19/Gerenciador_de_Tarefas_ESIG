@@ -1,0 +1,20 @@
+<div class="form">
+    <form (ngSubmit)="onSubmit()" #form="ngForm">
+        <span class="logo">
+            <i class="material-icons">
+                assignment 
+            </i>
+            <span class="title">Gerenciador de Tarefas</span>
+        </span>
+        <mat-form-field class="inputs" appearance="fill">
+            <mat-label>User</mat-label>
+            <input matInput placeholder="User" type="text" name="user" id="user" [(ngModel)]="login.user" required>
+        </mat-form-field>
+        <mat-form-field class="inputs" appearance="fill">
+            <mat-label>Password</mat-label>
+            <input matInput type="password" name="password" id="password" [(ngModel)]="login.password" required>
+        </mat-form-field>
+        <button mat-raised-button type="submit" [disabled]="form.form.invalid" color="primary">Entrar</button>
+        <div>Não tem uma conta? <a type="button" [routerLink]="['/create-account']">Crie uma!</a></div>
+    </form>
+</div>

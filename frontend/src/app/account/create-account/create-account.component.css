@@ -1,0 +1,50 @@
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-image: url('https://wallpaper.dog/large/2183.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+}
+
+form {
+    width: 340px;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #ebebeb;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 2px 6px -2px rgb(29, 29, 29);
+    filter: drop-shadow(0px 0px 1px rgba(29, 29, 29, 0.6));
+    border-bottom: 4px solid #623da1;
+}
+
+form .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+form .logo i {
+    font-size: 100px;
+    color: #8d58ac;
+    filter: drop-shadow(0px 0px 2px rgba(29, 29, 29, 0.6));
+}
+
+form .logo .title {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #8d58ac;
+    filter: drop-shadow(0px 0px .5px rgba(29, 29, 29, 0.6));
+}
+
+form button {
+    margin-bottom: 10px;
+}

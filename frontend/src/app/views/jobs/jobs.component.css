@@ -1,0 +1,74 @@
+.container {
+    height: calc(100vh - 100px);
+    display: flex;
+    flex-direction: column;
+}
+
+.jobs {
+    background-color: #ebebeb;
+    width: 95%;
+    margin: 5px auto;
+    filter: drop-shadow(0px 0px .5px rgba(29, 29, 29, 0.6));
+    border-bottom: 4px solid #623da1;
+}
+
+.jobs .title {
+    font-size: 2.2rem;
+    color: #1d1d1d;
+    font-weight: 400;
+    line-height: 1.1;
+    filter: drop-shadow(0px 0px 1px rgba(29, 29, 29, 0.6));
+}
+
+.jobs .subtitle {
+    font-size: 1rem;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 95%;
+    margin: 5px auto;
+}
+
+.info .item {
+    width: 25%;
+    margin: 10px;
+    background-color: #ebebeb;
+    filter: drop-shadow(0px 0px 3px rgba(29, 29, 29, 0.6));
+    text-align: center;
+}
+
+.info .item i {
+    font-size: 60px;
+    filter: drop-shadow(0px 0px 2px rgba(29, 29, 29, 0.6));
+}
+
+.info .item h2 {
+    font-weight: 400;
+    font-size: 1.1rem;
+    filter: drop-shadow(0px 0px 2px rgba(29, 29, 29, 0.6));
+    margin-bottom: 40px;
+}
+
+.info .item .number {
+    font-size: 4.5rem;
+    filter: drop-shadow(0px 0px 3px rgba(29, 29, 29, 0.6));
+}
+
+.info .progress {
+    background-color: #eec00a;
+    color: #e2e2e2;
+    border-bottom: 4px solid #ca820d;
+}
+
+.info .done {
+    background-color: #11c45b;
+    color: #e2e2e2;
+    border-bottom: 4px solid #1a8346;
+}
+
+.info .item:first-child {
+    margin-left: 0;
+}

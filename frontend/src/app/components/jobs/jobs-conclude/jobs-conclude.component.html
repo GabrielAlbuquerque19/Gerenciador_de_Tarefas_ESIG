@@ -1,0 +1,63 @@
+<mat-card class="card mat-evolution-4z">
+    <mat-card-title class="job">Confirme a exclusão da Tarefa</mat-card-title>
+    <form>
+        <mat-form-field class="title">
+            <input matInput placeholder="Título" [value]="job.title" name="title" disabled>
+        </mat-form-field>
+
+        <mat-form-field class="description example-full-width" appearance="fill">
+            <mat-label>Conte-me com detalhes...</mat-label>
+            <textarea matInput placeholder="Descrição" [value]="job.description" name="description" disabled></textarea>
+        </mat-form-field>
+        <mat-form-field class="responsible" appearance="fill">
+            <mat-label>Responsável</mat-label>
+            <mat-select [value]="job.responsible" name="responsible" disabled>
+                <mat-option value="Gabriel">
+                    Gabriel
+                </mat-option>
+                <mat-option value="Fran">
+                    Fran
+                </mat-option>
+                <mat-option value="Ana">
+                    Ana
+                </mat-option>
+                <mat-option value="Paulo">
+                    Paulo
+                </mat-option>
+            </mat-select>
+        </mat-form-field>
+
+        <mat-form-field class="priority" appearance="fill">
+            <mat-label>Prioridade</mat-label>
+            <mat-select [value]="job.priority" name="priority" disabled>
+                <mat-option value="Baixa">
+                    Baixa
+                </mat-option>
+                <mat-option value="Média">
+                    Média
+                </mat-option>
+                <mat-option value="Alta">
+                    Alta
+                </mat-option>
+            </mat-select>
+        </mat-form-field>
+
+        <div class="formDate">
+            <mat-form-field class="date" appearance="fill">
+                <mat-label>Data de encerramento</mat-label>
+                <input matInput [matDatepicker]="picker " [value]="job.deadline " name="deadline " disabled>
+                <mat-datepicker-toggle matSuffix [for]="picker "></mat-datepicker-toggle>
+                <mat-datepicker #picker></mat-datepicker>
+            </mat-form-field>
+        </div>
+        <mat-form-field>
+            <input matInput class="status" [value]="job.status" placeholder="Status" disabled>
+        </mat-form-field>
+
+
+    </form>
+    <div class="buttons ">
+        <button mat-raised-button class="conclude" (click)="checkJob()">Concluir</button>
+        <button mat-raised-button (click)="cancel() ">Cancelar</button>
+    </div>
+</mat-card>

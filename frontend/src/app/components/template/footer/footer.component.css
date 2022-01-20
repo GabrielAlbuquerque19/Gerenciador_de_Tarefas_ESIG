@@ -1,0 +1,18 @@
+.footer {
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: flex-start;
+    font-weight: 300;
+    font-size: 14px;
+    color: #ebebeb;
+    background-color: transparent;
+    height: 40px;
+    z-index: 100;
+}
+
+.footer a {
+    text-decoration: none;
+    font-weight: 500;
+    color: #ebebeb;
+}

@@ -1,0 +1,22 @@
+<div class="container">
+    <mat-card class="jobs mat-elevation-z2">
+        <mat-card-title class="title">Bem vindo!</mat-card-title>
+        <mat-card-subtitle class="subtitle">Sistema para Gerencimaneto de Tarefas</mat-card-subtitle>
+    </mat-card>
+    <div class="info">
+        <mat-card class="item mat-evolution-z4 progress">
+            <i class="material-icons">pending_actions</i>
+            <h2>Tarefas em andamento</h2>
+            <span class="number">
+                {{jobsProgress}}
+            </span>
+        </mat-card>
+        <mat-card class="item mat-evolution-z4 done">
+            <i class="material-icons">done</i>
+            <h2>Tarefas concluídas</h2>
+            <span class="number">
+                {{jobsConclude}}
+            </span>
+        </mat-card>
+    </div>
+</div>
