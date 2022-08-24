@@ -71,7 +71,7 @@ Abra o cmd(Prompt de comando) da sua máquina na pasta do projeto e siga o passo
 
 ## Conclusão
 
-Este projeto foi desenvolvivo com o intuito de fazer um mini gerenciador de tarefas com as principais funcionalidades para testes CRUD e funções a fins. Sempre é bom pegar alguns desafior e coisas novas para treinar suas habilidades. Sei que a partir desse projeto estou cada vez mais experiente no ramo e com mais uma linguagem na lista ([AngularJS](https://angular.io/));
+Este projeto foi desenvolvivo com o intuito de fazer um mini gerenciador de tarefas com as principais funcionalidades para testes CRUD e funções a fins. Sempre é bom pegar alguns desafios e coisas novas para treinar suas habilidades. Sei que a partir desse projeto estou cada vez mais experiente no ramo e com mais uma linguagem na lista ([AngularJS](https://angular.io/));
 
 <a id="ancora4"></a>
 
